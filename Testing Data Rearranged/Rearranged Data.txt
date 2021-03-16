@@ -1,0 +1,12 @@
+Training	Testing
+s1 		t8
+s2		t4
+s3		t7
+s4		t9
+s5		t1
+s6		t10
+s7		t2
+s8		t5
+s9		t3
+s10		t11
+s11		t6
