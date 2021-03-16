@@ -1,15 +1,15 @@
 function y = voiceRec(speaker)
-
+CB = 32;
 %Initialize the training data
-for i=1:11   %11 training files
+for i=1:speaker   %Number of training data up the Speaker ID
    file=sprintf('s%d.wav',i); %Inputs training file
    [s,Fs]=audioread(file);
    v=mfcc(s,Fs); %Extract mfccs from training file
-   code{i}=vqlbg(v,32); %Compilation of trained data through vector quantization
+   code{i}=vqlbg(v,CB); %Compilation of trained data through vector quantization
 end
 
 %Initialize the testing data
-nameList={'1','2','3','4','5','6','7','8','9','10','11','12'};
+nameList={'1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21'};
 if speaker > 0
     file=sprintf('t%d.wav',speaker);
     [s,Fs]=audioread(file);
