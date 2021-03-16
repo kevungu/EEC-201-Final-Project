@@ -1,0 +1,16 @@
+Teammate Voice
+Training	Testing
+s12		t13
+
+Notch Filted Voice
+Testing
+t12
+-The Notch Filted Voice is a notch filter applied on the training data  of Speaker 1.
+
+Speech Accent Archive
+Training	Testing
+s13		t14
+s14		t15
+s15		t16
+s16		t17
+s17		t18
